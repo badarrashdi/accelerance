@@ -1,7 +1,7 @@
 <section class="content-inner bg-primary" style="background-image:url({{ theme.link }}/static/images/background/bg3.png);background-repeat:no-repeat;background-size:cover">
 <div class="container">
   <div class="row">
-    {% for item in post.meta('counts') %}
+    {% for item in options.counts %}
     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
       <div class="icon-bx-wraper style-4 text-center">
         <div class="icon-bx-sm radius {{ item.color }} m-b20">

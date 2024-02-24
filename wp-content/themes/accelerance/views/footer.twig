@@ -1,3 +1,4 @@
+        {{ dump(post) }}
         <footer class="site-footer style-1" id="footer" style="background-image:url({{ theme.link }}/static/images/background/bg10.png)">
           <div class="footer-top">
             <div class="container">
@@ -6,7 +7,7 @@
                   <div class="col-xl-6 col-md-4">
                     <div class="footer-logo">
                       <a href="index.html">
-                        <img src="images/logo-white.png" alt="" />
+                        <img src="{{ get_image(options.footer_logo).src }}" alt="" width="150px" style="filter: brightness(0) invert(1);"  />
                       </a>
                     </div>
                   </div>
@@ -18,7 +19,7 @@
                         </a>
                       </div>
                       <div class="icon-content">
-                        <p>+91 987-654-3210 <br />info@example.com </p>
+                      {{ options.footer_contact }}
                       </div>
                     </div>
                   </div>
@@ -30,7 +31,7 @@
                         </a>
                       </div>
                       <div class="icon-content">
-                        <p>Marmora Road Chi Minh City, Vietnam</p>
+                      {{ options.footer_address }}
                       </div>
                     </div>
                   </div>
@@ -40,7 +41,7 @@
                 <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
                   <div class="widget widget_about">
                     <h5 class="footer-title">About Us</h5>
-                    <p>Maecenas pellentesque placerat quam, in finibus nisl tincidunt sed. Aliquam magna augue, malesuada ut feugiat eget, cursus eget felis.</p>
+                    {{ options.footer_about }}
                     <div class="dlab-social-icon">
                       <ul>
                         <li>

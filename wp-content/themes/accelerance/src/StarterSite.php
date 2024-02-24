@@ -43,6 +43,7 @@ class StarterSite extends Site {
 		$context['notes'] = 'These values are available everytime you call Timber::context();';
 		$context['menu']  = Timber::get_menu();
 		$context['site']  = $this;
+		$context['options'] = get_fields('options');
 
 		return $context;
 	}
