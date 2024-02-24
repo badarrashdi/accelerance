@@ -1,0 +1,67 @@
+{% block html_head_container %}
+
+    {% include 'html-header.twig' %}
+    {% block head %}{% endblock %}
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>{% endblock %}<body class="{{ body_class }}" data-template="base.twig">
+{{ function('wp_body_open') }}
+<a class="skip-link screen-reader-text" href="#content">
+    {{ _e( 'Skip to content') }}
+</a>
+<div id="__next">
+<div class="page-wraper">
+    {% include 'header.twig' %}
+    {# <header class="header" >
+    			{% block header %}
+    				<div class="wrapper">
+    					<h1 class="hdr-logo" role="banner">
+    						<a class="hdr-logo-link" href="{{site.url}}" rel="home">{{site.name}}</a>
+    					</h1>
+    					<nav id="nav-main" class="nav-main" role="navigation">
+    						{% include "menu.twig" with {'items': menu.get_items} %}
+    					</nav><!-- #nav -->
+    				</div>
+    			{% endblock %}
+    		</header> #}
+
+    <section id="content" role="main" class="content-wrapper">
+        {% if title %}
+            <h1>
+                {{ title }}
+            </h1>
+        {% endif %}
+        <div class="wrapper">
+            {% block content %}
+                Sorry, no content
+                				
+            {% endblock %}
+        </div>
+        {% if sidebar %}
+            <aside class="layout-sidebar">
+                {{ sidebar }}
+            </aside>
+        {% endif %}
+    </section>
+
+    {% block footer %}
+        <footer id="footer">
+            {% include 'footer.twig' %}
+        </footer>
+        {{ function('wp_footer') }}
+    {% endblock %}
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+	var swiper = new Swiper(".logo-slider", {
+		slidesPerView: 4,
+		spaceBetween: 10,
+	//	loop: true,
+		//centeredSlides: true,
+		autoplay: {
+			delay: 1000,
+			disableOnInteraction: false,
+		},
+	  });
+</script>
+</body></html>

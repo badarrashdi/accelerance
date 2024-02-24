@@ -2,13 +2,11 @@
 *
 
 # Except for the themes directories:
-
-!wordpress/
-!wordpress/*/
-!wordpress/*/wp-content/
-!wordpress/*/wp-content/themes/
-!wordpress/*/wp-content/themes/*
-!wordpress/*/wp-content/themes/*/*
-!wordpress/*/wp-content/themes/*/*/*
-!wordpress/*/wp-content/themes/*/*/*/*
-!wordpress/*/wp-content/themes/*/*/*/*/*
+!composer.json
+!wp-content
+!wp-content/themes/
+!wp-content/themes/*
+!wp-content/themes/*/*
+!wp-content/themes/*/*/*
+!wp-content/themes/*/*/*/*
+!wp-content/themes/*/*/*/*/*

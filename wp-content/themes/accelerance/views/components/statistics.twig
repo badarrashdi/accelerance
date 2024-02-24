@@ -1,0 +1,23 @@
+<section class="content-inner bg-primary" style="background-image:url({{ theme.link }}/static/images/background/bg3.png);background-repeat:no-repeat;background-size:cover">
+<div class="container">
+  <div class="row">
+    {% for item in options.counts %}
+    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
+      <div class="icon-bx-wraper style-4 text-center">
+        <div class="icon-bx-sm radius {{ item.color }} m-b20">
+          <a href="#" class="icon-cell">
+            <i class="{{ item.icon }}"></i>
+          </a>
+        </div>
+        <div class="icon-content">
+          <span class="title">{{ item.headline }}</span>
+          <h2 class="counter m-b0 text-primary">
+            <span>{{ item.count }}</span>
+          </h2>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+</section>
