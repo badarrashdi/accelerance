@@ -44,7 +44,7 @@ export default function Footer() {
             <img src="/brand/logo-white.svg" alt="Accelerance Technology" className="footer-brand-logo" />
           </Link>
           <div style={{ fontSize: '0.9rem', color: '#94A3B8' }}>
-            Engineering Digital Growth Across Delhi NCR &bull; Dubai &bull; Bahrain &bull; Riyadh &bull; London &bull; Sydney
+            Engineering Digital Growth Across Delhi NCR &bull; London &bull; Dubai &bull; Bahrain &bull; New Jersey &bull; Sydney
           </div>
         </div>
 
@@ -68,20 +68,20 @@ export default function Footer() {
           <div>
             <h4 className="footer-col-title">Company &amp; Hubs</h4>
             <ul className="footer-links-list">
-              <li><Link href="/about/" className="footer-link">About Accelerance</Link></li>
+              <li><Link href="/about/" className="footer-link">Get to Know Us</Link></li>
               <li><Link href="/work/" className="footer-link">Our Work &amp; Portfolio</Link></li>
               <li><Link href="/services/" className="footer-link">Full Services Matrix</Link></li>
-              <li><Link href="/contact/" className="footer-link">Contact &amp; Offices</Link></li>
+              <li><Link href="/contact/" className="footer-link">Let&apos;s Connect &amp; Offices</Link></li>
               <li style={{ marginTop: '1rem', color: '#94A3B8', fontSize: '0.85rem' }}>
                 <strong>International Presence:</strong><br />
-                Delhi &bull; Dubai &bull; Manama &bull; Riyadh
+                Delhi &bull; London &bull; Dubai &bull; Manama &bull; New Jersey (USA)
               </li>
             </ul>
           </div>
 
           {/* Column 3: Offices & Contact */}
           <div>
-            <h4 className="footer-col-title">Contact &amp; Support</h4>
+            <h4 className="footer-col-title">Let&apos;s Connect</h4>
             <div style={{ color: '#94A3B8', fontSize: '0.88rem', lineHeight: 1.6, marginBottom: '1.2rem' }}>
               <p><strong>Global Delivery HQ:</strong><br />Dariyaganj, Delhi, India</p>
               <p style={{ marginTop: '0.5rem' }}><strong>Email:</strong> sales@accelerance.in</p>
@@ -93,12 +93,12 @@ export default function Footer() {
 
         {/* Bottom Sub-Footer Bar */}
         <div className="footer-nav-row">
-          <div>&copy; {new Date().getFullYear()} Accelerance Technologies. All rights reserved.</div>
+          <div>&copy; {new Date().getFullYear()} Accelerance Technologies Pvt. Ltd. All rights reserved.</div>
           <div className="footer-bottom-links">
-            <Link href="/about/">About</Link>
+            <Link href="/about/">Get to Know Us</Link>
             <Link href="/services/">Services</Link>
             <Link href="/work/">Work</Link>
-            <Link href="/contact/">Contact</Link>
+            <Link href="/contact/">Let&apos;s Connect</Link>
           </div>
         </div>
       </div>

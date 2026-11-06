@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 625" width="1000" height="625" fill="none">
+  <defs>
+    <linearGradient id="dhBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A0B05" />
+      <stop offset="50%" stop-color="#2D1309" />
+      <stop offset="100%" stop-color="#140803" />
+    </linearGradient>
+    <linearGradient id="goldAcc" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+
+  <!-- Frame Background -->
+  <rect width="1000" height="625" rx="16" fill="url(#dhBg)" />
+  <rect width="1000" height="625" rx="16" stroke="#451A03" stroke-width="2" />
+
+  <!-- Chrome Header -->
+  <rect width="1000" height="52" rx="16" fill="#1C1917" />
+  <line x1="0" y1="52" x2="1000" y2="52" stroke="#292524" stroke-width="1.5" />
+  <circle cx="32" cy="26" r="6" fill="#EF4444" />
+  <circle cx="52" cy="26" r="6" fill="#F59E0B" />
+  <circle cx="72" cy="26" r="6" fill="#10B981" />
+
+  <!-- URL Bar -->
+  <rect x="250" y="10" width="500" height="32" rx="16" fill="#292524" stroke="#44403C" stroke-width="1" />
+  <path d="M270 21H278V26H270V21ZM272 21V19C272 17.9 272.9 17 274 17C275.1 17 276 17.9 276 19V21" stroke="#10B981" stroke-width="1.5" />
+  <text x="288" y="31" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#FAFAF9">
+    https://dillihaat.co.uk
+  </text>
+  <rect x="670" y="16" width="68" height="20" rx="4" fill="#047857" />
+  <text x="704" y="30" font-family="sans-serif" font-size="10" font-weight="700" fill="#A7F3D0" text-anchor="middle">UK LIVE</text>
+
+  <!-- Brand Navbar -->
+  <rect y="52" width="1000" height="70" fill="#1C1917" opacity="0.9" />
+  <text x="60" y="96" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">DILLI <tspan fill="#F59E0B">HAAT</tspan></text>
+  <text x="60" y="110" font-family="sans-serif" font-size="9" font-weight="600" letter-spacing="0.16em" fill="#A8A29E">WESTBOURNE • BOURNEMOUTH UK</text>
+
+  <text x="500" y="94" font-family="sans-serif" font-size="13" font-weight="600" fill="#D6D3D1">Dine-In Menu</text>
+  <text x="630" y="94" font-family="sans-serif" font-size="13" font-weight="600" fill="#D6D3D1">Takeaway &amp; Delivery</text>
+  <text x="790" y="94" font-family="sans-serif" font-size="13" font-weight="600" fill="#D6D3D1">Story &amp; Heritage</text>
+
+  <rect x="880" y="70" width="90" height="34" rx="17" fill="url(#goldAcc)" />
+  <text x="925" y="92" font-family="sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Order Now</text>
+
+  <!-- Hero Banner Content -->
+  <g transform="translate(60, 170)">
+    <rect width="180" height="26" rx="13" fill="#451A03" stroke="#78350F" stroke-width="1" />
+    <text x="90" y="17" font-family="sans-serif" font-size="11" font-weight="700" fill="#FBBF24" text-anchor="middle">AUTHENTIC INDIAN FLAVOURS</text>
+    
+    <text x="0" y="75" font-family="'Plus Jakarta Sans', sans-serif" font-size="44" font-weight="800" fill="#FFFFFF">
+      Rich Delhi Street Food
+    </text>
+    <text x="0" y="125" font-family="'Plus Jakarta Sans', sans-serif" font-size="44" font-weight="800" fill="#F59E0B">
+      &amp; Royal Tandoori Feast.
+    </text>
+
+    <text x="0" y="170" font-family="sans-serif" font-size="15" fill="#D6D3D1" width="460">
+      Experience the vibrant taste of old Delhi right here in Dorset. Direct ordering, 
+    </text>
+    <text x="0" y="195" font-family="sans-serif" font-size="15" fill="#D6D3D1" width="460">
+      instant table reservations, and seamless home delivery across Bournemouth.
+    </text>
+
+    <!-- CTAs -->
+    <rect x="0" y="230" width="160" height="46" rx="23" fill="url(#goldAcc)" />
+    <text x="80" y="258" font-family="sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">Order Online &rarr;</text>
+
+    <rect x="180" y="230" width="160" height="46" rx="23" fill="transparent" stroke="#78350F" stroke-width="1.5" />
+    <text x="260" y="258" font-family="sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">Reserve Table</text>
+  </g>
+
+  <!-- Right Hero Visual Card -->
+  <g transform="translate(560, 160)">
+    <rect width="380" height="410" rx="20" fill="#292524" stroke="#44403C" stroke-width="1.5" />
+    <!-- Special Card -->
+    <rect x="24" y="24" width="332" height="150" rx="14" fill="#1C1917" />
+    <text x="44" y="60" font-family="sans-serif" font-size="12" font-weight="700" fill="#F59E0B">CHEF'S SIGNATURE</text>
+    <text x="44" y="92" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">Dilli's Butter Chicken</text>
+    <text x="44" y="118" font-family="sans-serif" font-size="12" fill="#A8A29E">Slow-cooked tender chicken in velvet tomato-fenugreek gravy</text>
+    <text x="44" y="150" font-family="sans-serif" font-size="16" font-weight="800" fill="#F59E0B">£12.95</text>
+    <rect x="250" y="130" width="90" height="30" rx="15" fill="#F59E0B" />
+    <text x="295" y="150" font-family="sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">+ Add</text>
+
+    <!-- Grid items -->
+    <rect x="24" y="195" width="158" height="185" rx="12" fill="#1C1917" />
+    <text x="40" y="230" font-family="sans-serif" font-size="11" font-weight="700" fill="#F59E0B">STARTER</text>
+    <text x="40" y="255" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Amritsari Kulcha</text>
+    <text x="40" y="290" font-family="sans-serif" font-size="15" font-weight="800" fill="#FFFFFF">£5.50</text>
+    <rect x="40" y="325" width="126" height="30" rx="8" fill="#F59E0B" />
+    <text x="103" y="345" font-family="sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Order</text>
+
+    <rect x="198" y="195" width="158" height="185" rx="12" fill="#1C1917" />
+    <text x="214" y="230" font-family="sans-serif" font-size="11" font-weight="700" fill="#F59E0B">TANDOOR</text>
+    <text x="214" y="255" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Seekh Kebab</text>
+    <text x="214" y="290" font-family="sans-serif" font-size="15" font-weight="800" fill="#FFFFFF">£7.95</text>
+    <rect x="214" y="325" width="126" height="30" rx="8" fill="#F59E0B" />
+    <text x="277" y="345" font-family="sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Order</text>
+  </g>
+</svg>

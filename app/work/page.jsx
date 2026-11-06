@@ -15,9 +15,9 @@ export default function WorkPage() {
     : caseStudiesList.filter((c) => c.category === activeFilter);
 
   const filterCategories = [
-    { id: "all", label: "All Projects" },
-    { id: "ecommerce", label: "eCommerce & Retail" },
-    { id: "b2b", label: "B2B & Commercial Contracting" },
+    { id: "all", label: `All Projects (${caseStudiesList.length})` },
+    { id: "ecommerce", label: "eCommerce & D2C" },
+    { id: "b2b", label: "Enterprise B2B, ERP & Medical" },
     { id: "realestate", label: "Luxury Real Estate" },
     { id: "travel", label: "Travel & Hospitality" },
   ];

@@ -12,12 +12,18 @@ export function generateMetadata({ params }) {
   const service = servicesList.find((s) => s.slug === params.slug);
   if (!service) return { title: 'Services | Accelerance Tech' };
 
+  const canonicalUrl = `https://accelerance.tech/services/${service.slug}/`;
+
   return {
     title: `${service.title} | Accelerance Tech`,
     description: service.heroDesc,
+    alternates: {
+      canonical: canonicalUrl,
+    },
     openGraph: {
       title: `${service.title} — Accelerance Tech`,
       description: service.tagline,
+      url: canonicalUrl,
     },
   };
 }

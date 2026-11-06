@@ -200,7 +200,7 @@ export default function InnovativeServices() {
             <span className="abox-service-heading-gradient">To Drive Growth.</span>
           </h2>
           <p className="abox-service-subtext">
-            We partner with ambitious companies across <strong>India (Delhi NCR HQ), Bahrain, UAE, and Saudi Arabia</strong> to deliver 
+            We partner with ambitious companies across <strong>India (Delhi NCR HQ), the UK, Bahrain, and UAE</strong> to deliver 
             clean design, cutting-edge web &amp; mobile engineering, and AI automation that directly move business needles.
           </p>
         </div>

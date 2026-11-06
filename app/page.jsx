@@ -7,8 +7,16 @@ import Link from 'next/link';
 import { caseStudiesList, servicesList, agencyInfo } from './data';
 
 export const metadata = {
-  title: 'Accelerance Tech | Award-Winning Digital Growth & Web Agency',
+  title: 'Accelerance Tech | Award-Winning Digital Growth, Web & eCommerce Agency',
   description: 'Full-service digital agency delivering high-performance websites, scalable eCommerce, mobile applications, performance marketing, and CRM automation for ambitious brands.',
+  alternates: {
+    canonical: 'https://accelerance.tech/',
+  },
+  openGraph: {
+    title: 'Accelerance Tech | Award-Winning Digital Growth, Web & eCommerce Agency',
+    description: 'Full-service digital agency delivering high-performance websites, scalable eCommerce, mobile applications, performance marketing, and CRM automation.',
+    url: 'https://accelerance.tech/',
+  },
 };
 
 export default function HomePage() {
@@ -214,7 +222,7 @@ export default function HomePage() {
               <h2 className="section-title">Local Presence. Global Velocity.</h2>
             </div>
             <p className="section-desc-compact">
-              Headquartered in Delhi NCR with active client delivery hubs across Dubai, Bahrain, Riyadh, London, and Sydney.
+              Headquartered in Delhi NCR with active client delivery hubs across London, Dubai, Bahrain, New Jersey (USA), and Sydney.
             </p>
           </div>
 
@@ -231,10 +239,13 @@ export default function HomePage() {
                   <p className="office-address-text">
                     {office.address}
                   </p>
+                  <p style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-primary)', marginTop: '0.65rem' }}>
+                    {office.phone}
+                  </p>
                 </div>
                 <div className="office-card-footer">
                   <Link href="/contact/" className="office-contact-link">
-                    <span>Contact Office</span>
+                    <span>Let&apos;s Connect</span>
                     <span className="arrow-hover">&rarr;</span>
                   </Link>
                 </div>

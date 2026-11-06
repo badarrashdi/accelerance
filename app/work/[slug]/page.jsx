@@ -16,12 +16,33 @@ export function generateMetadata({ params }) {
   const caseStudy = caseStudiesList.find((c) => c.slug === params.slug);
   if (!caseStudy) return { title: 'Case Study | Accelerance Tech' };
 
+  const canonicalUrl = `https://accelerance.tech/work/${caseStudy.slug}/`;
+
   return {
     title: `${caseStudy.client} Case Study | Accelerance Tech`,
     description: caseStudy.summary,
+    alternates: {
+      canonical: canonicalUrl,
+    },
     openGraph: {
       title: `${caseStudy.client} Case Study — ${caseStudy.title}`,
       description: caseStudy.summary,
+      url: canonicalUrl,
+      images: [
+        {
+          url: caseStudy.heroImage || '/brand/og-image.png',
+          width: 1200,
+          height: 630,
+          alt: `${caseStudy.client} Platform Case Study`,
+        },
+      ],
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${caseStudy.client} Case Study | Accelerance Tech`,
+      description: caseStudy.summary,
+      images: [caseStudy.heroImage || '/brand/og-image.png'],
     },
   };
 }
@@ -33,12 +54,58 @@ export default function CaseStudyPage({ params }) {
     notFound();
   }
 
+  const caseStudySchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": caseStudy.title,
+    "description": caseStudy.summary,
+    "image": caseStudy.heroImage || "https://accelerance.tech/brand/og-image.png",
+    "author": {
+      "@type": "Organization",
+      "name": "Accelerance Technologies Pvt. Ltd.",
+      "url": "https://accelerance.tech"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Accelerance Technologies Pvt. Ltd.",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://accelerance.tech/brand/logo.svg"
+      }
+    },
+    "mainEntityOfPage": `https://accelerance.tech/work/${caseStudy.slug}/`,
+    "about": {
+      "@type": "Organization",
+      "name": caseStudy.client,
+      "url": caseStudy.url
+    },
+    ...(caseStudy.testimonial ? {
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": caseStudy.testimonial.author
+        },
+        "reviewBody": caseStudy.testimonial.quote
+      }
+    } : {})
+  };
+
   const relatedCaseStudies = caseStudiesList
     .filter((c) => c.slug !== caseStudy.slug)
     .slice(0, 2);
 
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(caseStudySchema) }}
+      />
       <Header />
 
       {/* Case Study Header Hero */}

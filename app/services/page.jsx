@@ -4,8 +4,16 @@ import Link from 'next/link';
 import { servicesList, agencyInfo } from '../data';
 
 export const metadata = {
-  title: 'Full-Service Digital Capabilities & Solutions | Accelerance Tech',
+  title: 'Full-Service Digital Capabilities & Solutions | Accelerance Tech Pvt. Ltd.',
   description: 'Explore Accelerance Tech’s end-to-end digital services: Web Design, eCommerce, Mobile Apps, SEO, Performance Marketing, CRM Automation, and Brand Identity.',
+  alternates: {
+    canonical: 'https://accelerance.tech/services/',
+  },
+  openGraph: {
+    title: 'Full-Service Digital Capabilities & Solutions | Accelerance Tech',
+    description: 'Explore Accelerance Tech’s end-to-end digital services: Web Design, eCommerce, Mobile Apps, SEO, Performance Marketing, CRM Automation, and Brand Identity.',
+    url: 'https://accelerance.tech/services/',
+  },
 };
 
 export default function ServicesHubPage() {

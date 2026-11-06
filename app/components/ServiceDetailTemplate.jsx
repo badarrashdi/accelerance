@@ -12,8 +12,38 @@ export default function ServiceDetailTemplate({ service }) {
     service.relatedCaseStudyIds?.includes(c.id) || service.relatedCaseStudyIds?.includes(c.slug)
   );
 
+  const serviceJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": service.title,
+    "description": service.heroDesc || service.tagline,
+    "provider": {
+      "@type": "Organization",
+      "name": "Accelerance Technologies Pvt. Ltd.",
+      "url": "https://accelerance.tech"
+    },
+    "serviceType": service.category,
+    "areaServed": ["IN", "GB", "AE", "BH", "US", "AU"],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": service.title,
+      "itemListElement": service.capabilities?.map((c) => ({
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": c.name,
+          "description": c.desc
+        }
+      })) || []
+    }
+  };
+
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
+      />
       <Header />
 
       {/* Service Hero */}

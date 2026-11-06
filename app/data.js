@@ -2,8 +2,8 @@
 // Inspired by leading agencies like Digital Nexa: Business-outcome focused, multi-channel capabilities
 
 export const agencyInfo = {
-  name: "Accelerance Tech",
-  legalName: "Accelerance Technologies Private Limited",
+  name: "Accelerance Tech Pvt. Ltd.",
+  legalName: "Accelerance Technologies Pvt. Ltd.",
   tagline: "Engineering Digital Growth for Ambitious Brands",
   shortDesc:
     "Award-winning digital agency delivering high-performance websites, scalable eCommerce, mobile applications, performance marketing, and CRM automation.",
@@ -12,7 +12,7 @@ export const agencyInfo = {
     {
       value: "150+",
       label: "Successful Launches",
-      desc: "Across India, UAE, UK, Australia & Saudi Arabia",
+      desc: "Across India, UK, UAE, USA, Australia & Global Markets",
     },
     {
       value: "98.4%",
@@ -29,17 +29,26 @@ export const agencyInfo = {
     {
       city: "Delhi (Global HQ)",
       country: "India",
-      address: "Daryaganj, Delhi, India",
+      address: "401, 4th Floor, Emca House, 23/23B, Ansari Road, Daryaganj, New Delhi – 110002",
       phone: "+91 9711091363",
       email: "sales@accelerance.in",
       hours: "Mon – Fri: 9:00 AM – 7:00 PM IST",
       isHQ: true,
     },
     {
+      city: "London",
+      country: "United Kingdom",
+      address: "F-B, 17 Groveway, London SW9 0AH, United Kingdom",
+      phone: "+44 7741 345792",
+      email: "uk@accelerance.tech",
+      hours: "Mon – Fri: 9:00 AM – 5:30 PM GMT",
+      isHQ: false,
+    },
+    {
       city: "Dubai",
       country: "United Arab Emirates",
       address: "Office 1402, Marina Plaza, Dubai Marina, Dubai, UAE",
-      phone: "+971 4 456 7890",
+      phone: "+91 9711091363",
       email: "dubai@accelerance.tech",
       hours: "Mon – Fri: 9:00 AM – 6:00 PM GST",
       isHQ: false,
@@ -48,18 +57,18 @@ export const agencyInfo = {
       city: "Manama",
       country: "Kingdom of Bahrain",
       address: "Level 11, Almoayyed Tower, Seef District, Manama, Bahrain",
-      phone: "+973 17 567 890",
+      phone: "+91 9711091363",
       email: "bahrain@accelerance.tech",
       hours: "Sun – Thu: 8:30 AM – 5:30 PM AST",
       isHQ: false,
     },
     {
-      city: "Riyadh",
-      country: "Kingdom of Saudi Arabia",
-      address: "King Fahd Road, Al Olaya District, Riyadh 12214, Saudi Arabia",
-      phone: "+966 11 234 5678",
-      email: "riyadh@accelerance.tech",
-      hours: "Sun – Thu: 9:00 AM – 6:00 PM AST",
+      city: "Ridgewood, New Jersey",
+      country: "United States",
+      address: "1124 East Ridgewood, Av, Suite 103, Ridgewood, NJ - 07450, USA",
+      phone: "+91 9711091363",
+      email: "usa@accelerance.tech",
+      hours: "Mon – Fri: 9:00 AM – 6:00 PM EST",
       isHQ: false,
     },
   ],
@@ -531,6 +540,531 @@ export const caseStudiesList = [
       ],
     },
   },
+  {
+    id: "sofgen-erp",
+    slug: "sofgen-erp",
+    client: "Sofgen ERP",
+    url: "https://sofgen.org",
+    domain: "Sofgen.org",
+    title:
+      "Architecting Next-Generation Enterprise ERP & SAP Ecosystems for Global Manufacturers",
+    subtitle:
+      "Full-scale digital re-engineering of industrial manufacturing ERP, SAP cloud integration, and shop floor automation.",
+    industry: "Enterprise Manufacturing & SAP Solutions",
+    category: "b2b",
+    region: "Global & India",
+    themeColor: "#C2410C",
+    accentColor: "#EA580C",
+    heroImage:
+      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80",
+    screenshotImage: "/images/case-studies/sofgen-screenshot.jpg",
+    summary:
+      "Serving high-volume manufacturers since 1989, Sofgen required a cutting-edge digital enterprise flagship to showcase their custom ERP capabilities, certified SAP partnership, and industry 4.0 automation systems. We delivered a performance-optimized Next.js web application with sub-second page loads, structured B2B lead generation funnels, and enterprise solution discovery.",
+    keyMetrics: [
+      {
+        label: "Inbound Enterprise RFPs",
+        value: "+280%",
+        sub: "Fortune 500 & mid-market manufacturers",
+      },
+      {
+        label: "Organic Search Visibility",
+        value: "+410%",
+        sub: "Target manufacturing ERP & SAP keywords",
+      },
+      {
+        label: "Page Load Performance",
+        value: "0.7s",
+        sub: "Sub-second global CDN delivery",
+      },
+      {
+        label: "Avg Session Duration",
+        value: "4m 12s",
+        sub: "Engaged multi-level solution browsing",
+      },
+    ],
+    challenge:
+      "Sofgen's rich 30+ year heritage in manufacturing software was obscured by an outdated web architecture with high latency, poor mobile UX, and zero technical SEO indexing for high-value SAP and industrial software search queries. Decision-makers struggled to understand the breadth of their proprietary ERP suite versus standard ERP off-the-shelf packages.",
+    solution:
+      "Accelerance Tech architected a modular, enterprise-grade Next.js web platform with interactive solution finders, animated system architecture breakdowns, and comprehensive technical whitepaper download gates. We instituted rigorous B2B programmatic SEO mapping across industry verticals (automotive, pharmaceuticals, engineering) and integrated HubSpot CRM pipelines for real-time sales lead attribution.",
+    deliverables: [
+      "Enterprise Next.js Architecture with Zero Layout Shift",
+      "Interactive ERP Module Navigator & Capability Matrix",
+      "HubSpot CRM Enterprise Lead Routing & Attribution",
+      "Technical B2B SEO Strategy & Schema Architecture",
+      "Interactive SAP Partnership & Systems Ecosystem Showcase",
+    ],
+    testimonial: {
+      quote:
+        "Accelerance translated our complex multi-decade engineering expertise into a sleek, authoritative digital presence. Our international manufacturing RFPs grew by 280% in the first two quarters following the launch.",
+      author: "S. Ramanathan",
+      role: "Chief Technology Officer, Sofgen Systems",
+    },
+    snapshotPreview: {
+      header: "Custom ERP & SAP Implementation for Advanced Manufacturing",
+      searchPlaceholder: "Explore ERP Modules, SAP Integration, Shop Floor IoT...",
+      highlights: [
+        "Certified SAP Partner Solutions",
+        "Automated Shop Floor & Inventory Control",
+        "Zero-Downtime Migration Architecture",
+      ],
+      featuredCategories: [
+        "Manufacturing ERP",
+        "SAP Cloud Integration",
+        "Business Consulting",
+        "Industrial Automation",
+      ],
+    },
+  },
+  {
+    id: "kara-inc",
+    slug: "kara-inc",
+    client: "Kara Inc",
+    url: "https://karainc.biz",
+    domain: "Karainc.biz",
+    title:
+      "Powering Sustainable Fashion Sourcing & 360° Global Apparel Supply Chains",
+    subtitle:
+      "Global textile procurement flagship, interactive sustainability audit matrix, and high-trust sourcing portal.",
+    industry: "Global Fashion Sourcing & Supply Chain",
+    category: "b2b",
+    region: "Global & North America",
+    themeColor: "#0F766E",
+    accentColor: "#14B8A6",
+    heroImage:
+      "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1200&q=80",
+    screenshotImage: "/images/case-studies/karainc-screenshot.jpg",
+    summary:
+      "Since 1987, Kara Inc has empowered premier apparel brands with end-to-end sustainable fashion sourcing, quality management, and ethical global manufacturing. We designed a luxury-grade digital platform that elevates their 360° supply chain capabilities and converts international retail buyers.",
+    keyMetrics: [
+      {
+        label: "Global Brand Inquiries",
+        value: "+245%",
+        sub: "Tier-1 fashion retailers & labels",
+      },
+      {
+        label: "Sourcing Engagement",
+        value: "3.5x",
+        sub: "Interactive product divisions showcase",
+      },
+      {
+        label: "Core Web Vitals Score",
+        value: "99/100",
+        sub: "Ultra-crisp imagery with sub-second speeds",
+      },
+      {
+        label: "Organic Search Reach",
+        value: "+310%",
+        sub: "Ethical textile & fashion supply chain keywords",
+      },
+    ],
+    challenge:
+      "International apparel sourcing is built on trust, certified sustainability (OEKO-TEX, GOTS), and rapid sample velocity. Kara Inc needed a modern digital showroom that accurately conveyed their global manufacturing footprint across India, Bangladesh, and Vietnam while catering to procurement heads in New York, London, and Paris.",
+    solution:
+      "We engineered a sleek editorial B2B portal pairing haute-couture aesthetic elegance with enterprise web performance. The platform features an interactive Global Network map, detailed sustainability compliance certifications, high-resolution textile fabric exploration galleries, and an expedited private procurement request workflow.",
+    deliverables: [
+      "Haute-Couture UI/UX Design System",
+      "Interactive Global Sourcing Network & Factory Locator",
+      "Dynamic Sustainability & Ethical Audit Hub",
+      "B2B Private Client Sourcing Inquiry Engine",
+      "Multilingual Global Search Engine Optimization",
+    ],
+    testimonial: {
+      quote:
+        "Accelerance captured the exact sophistication and ethical rigor that defines Kara Inc. Our digital footprint now matches the high-fashion standards of our global clientele in New York and Milan.",
+      author: "Anita K.",
+      role: "Managing Director, Kara Inc.",
+    },
+    snapshotPreview: {
+      header: "Driving Innovation in Sustainable Global Fashion Sourcing",
+      searchPlaceholder: "Explore Fabrics, Apparel Categories, Compliance...",
+      highlights: [
+        "End-to-End 360° Supply Chain Orchestration",
+        "GOTS & OEKO-TEX Certified Sustainability",
+        "Direct Presence Across Global Sourcing Hubs",
+      ],
+      featuredCategories: [
+        "Women's & Men's Apparel",
+        "Eco-Conscious Knitwear",
+        "Activewear & Outerwear",
+        "Textile Innovation",
+      ],
+    },
+  },
+  {
+    id: "kara-life-sciences",
+    slug: "kara-life-sciences",
+    client: "Kara Life Sciences",
+    url: "https://karalifesciences.com",
+    domain: "Karalifesciences.com",
+    title:
+      "Digitizing Global Dental Laboratory Networks & High-Precision Prosthetics",
+    subtitle:
+      "Advanced CAD/CAM digital dentistry portal, streamlined clinical order dispatch, and practitioner booking engine.",
+    industry: "Medical Technology & Dental Laboratories",
+    category: "b2b",
+    region: "Global & Middle East",
+    themeColor: "#047857",
+    accentColor: "#10B981",
+    heroImage:
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80",
+    screenshotImage: "/images/case-studies/karalifesciences-screenshot.jpg",
+    summary:
+      "The Kara Life Sciences operates an international network of precision dental laboratories providing zirconia crowns, titanium implants, and 3D intraoral restorations. We built an authoritative medical technology platform that connects dental clinicians worldwide with high-precision fabrication labs.",
+    keyMetrics: [
+      {
+        label: "Practice Onboarding",
+        value: "+330%",
+        sub: "Clinics in UK, UAE, and India",
+      },
+      {
+        label: "Consultation Bookings",
+        value: "4.2x",
+        sub: "Integrated Cal/meeting scheduler",
+      },
+      {
+        label: "Medical Keyword Authority",
+        value: "Top-5",
+        sub: "Digital dentistry & dental lab outsourcing",
+      },
+      {
+        label: "Mobile Conversion Lift",
+        value: "+68%",
+        sub: "Fast ordering for busy dental surgeons",
+      },
+    ],
+    challenge:
+      "Modern dentistry has shifted from analog impressions to digital intraoral 3D scans (STL/PLY). Kara Life Sciences needed a platform that educated dental surgeons on digital CAD/CAM workflows, demonstrated sub-micron milling accuracy, and provided a zero-friction meeting booking system for clinic procurement leads.",
+    solution:
+      "We designed a clean, clinical-grade medical website utilizing high-contrast typography, interactive restoration comparison sliders, and an automated 'Book a Meeting' system synced directly with their global clinical advisory desk. Comprehensive healthcare schema and medical practitioner SEO were established across key international dental markets.",
+    deliverables: [
+      "Clinical Medical Technology Design System",
+      "CAD/CAM Intraoral Digital Workflow Visualizer",
+      "Integrated Practitioner Calendar & Consultation Funnel",
+      "HIPAA / GDPR Compliant Lead Acquisition Forms",
+      "Global Healthcare SEO & Clinical Schema Integration",
+    ],
+    testimonial: {
+      quote:
+        "The response from private dental clinics and dental hospital networks has been extraordinary. Accelerance built a platform that instantly establishes clinical confidence and drives qualified clinician consultations daily.",
+      author: "Dr. Tariq M.",
+      role: "Chief Clinical Officer, The Kara Life Sciences",
+    },
+    snapshotPreview: {
+      header: "Trusted Dental Laboratory Network with Global Expertise",
+      searchPlaceholder: "Explore Zirconia Crowns, Titanium Implants, Intraoral Scans...",
+      highlights: [
+        "Sub-Micron CAD/CAM Precision Milling",
+        "Seamless Digital Intraoral Scan Processing",
+        "Fast International Clinic Delivery",
+      ],
+      featuredCategories: [
+        "Zirconia Restorations",
+        "Implant Prosthetics",
+        "Orthodontic Aligners",
+        "Cosmetic Veneers",
+      ],
+    },
+  },
+  {
+    id: "jamia-remedies",
+    slug: "jamia-remedies",
+    client: "Jamia Remedies",
+    url: "https://jamiaremedies.in",
+    domain: "Jamiaremedies.in",
+    title:
+      "Scaling India's Premier Unani & Herbal Healthcare Direct-to-Consumer Platform",
+    subtitle:
+      "High-converting Ayurvedic & Unani eCommerce store, mobile-first one-page checkout, and category-defining wellness search.",
+    industry: "Herbal Healthcare & Wellness eCommerce",
+    category: "ecommerce",
+    region: "India & Middle East",
+    themeColor: "#15803D",
+    accentColor: "#F97316",
+    heroImage:
+      "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=1200&q=80",
+    screenshotImage: "/images/case-studies/jamiaremedies-screenshot.jpg",
+    summary:
+      "Jamia Remedies is a celebrated heritage manufacturer of classical Unani formulations and proprietary wellness remedies (Hazmina, Roghan Musakkin, Halwa Gheekawar). We re-engineered their direct-to-consumer eCommerce portal for high-velocity catalog discovery, instant mobile checkouts, and recurring wellness subscriptions.",
+    keyMetrics: [
+      {
+        label: "Direct Online Orders",
+        value: "+385%",
+        sub: "Pan-India customer base expansion",
+      },
+      {
+        label: "Mobile Checkout Speed",
+        value: "1.2s",
+        sub: "Optimized UPI, PhonePe, and COD flow",
+      },
+      {
+        label: "Healthcare Rankings",
+        value: "50+",
+        sub: "Top-page rankings for natural herbal remedies",
+      },
+      {
+        label: "Customer Repeat Rate",
+        value: "44%",
+        sub: "Automated re-order reminders & regimen tracking",
+      },
+    ],
+    challenge:
+      "Customers searching for trusted herbal remedies were hitting high bounce rates due to unorganized category taxonomies (patent vs. classical formulations), missing batch purity information, and clunky legacy checkout steps that caused over 65% cart abandonment on mobile devices.",
+    solution:
+      "Accelerance developed a conversion-optimized headless eCommerce storefront. We created intuitive health-goal navigation (Digestion, Immunity, Joint Pain Relief, Brain & Memory), embedded verified customer reviews, enabled instant multi-payment checkouts (UPI, NetBanking, COD), and built automated shipping tracking via WhatsApp and SMS.",
+    deliverables: [
+      "High-Velocity D2C eCommerce Storefront",
+      "Health-Goal Symptom & Remedy Finder",
+      "Instant One-Step UPI & COD Mobile Checkout",
+      "Automated Order Notification & Tracking Engine",
+      "Ayurvedic & Unani Product SEO with Structured Schema",
+    ],
+    testimonial: {
+      quote:
+        "Accelerance revolutionized our online pharmacy. Our online revenue jumped nearly fourfold, and our loyal customers constantly praise how effortless it is to order on their phones.",
+      author: "Mohammad A.",
+      role: "Director of Growth, Jamia Remedies",
+    },
+    snapshotPreview: {
+      header: "Pure Classical & Patent Unani Formulations for Modern Living",
+      searchPlaceholder: "Search Hazmina, Roghan Musakkin, Brainer, Immunity...",
+      highlights: [
+        "100% Authentic Natural Herbal Ingredients",
+        "Clinically Verified Traditional Formulations",
+        "Fast Express Shipping Across India",
+      ],
+      featuredCategories: [
+        "Digestive Health (Hazmina)",
+        "Joint & Pain Relief",
+        "Brain & Memory Tonics",
+        "Classical Unani Halwas",
+      ],
+    },
+  },
+  {
+    id: "jcp-deoband",
+    slug: "jcp-deoband",
+    client: "Jamia College of Pharmacy",
+    url: "https://jcpdeoband.com",
+    domain: "Jcpdeoband.com",
+    title:
+      "Digital Admissions Flagship & Academic Portal for Premier Pharmacy Education",
+    subtitle:
+      "PCI-approved institution website, digital enrollment funnel, laboratory showcase, and high-ranking academic authority.",
+    industry: "Higher Education & Pharmaceutical Academia",
+    category: "b2b",
+    region: "Deoband, UP & Pan-India",
+    themeColor: "#166534",
+    accentColor: "#22C55E",
+    heroImage:
+      "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=1200&q=80",
+    screenshotImage: "/images/case-studies/jcpdeoband-screenshot.jpg",
+    summary:
+      "Approved by the Pharmacy Council of India (PCI) and affiliated with AKTU and BTEUP, Jamia College of Pharmacy (JCP) trains future pharmacists and pharmaceutical researchers. We designed an institutional portal with digital online admissions, virtual campus laboratory tours, and complete regulatory compliance.",
+    keyMetrics: [
+      {
+        label: "Online Applications",
+        value: "+460%",
+        sub: "D.Pharm & B.Pharm registrations",
+      },
+      {
+        label: "Regional Education Rank",
+        value: "Rank #1",
+        sub: "Top pharmacy college in Western UP",
+      },
+      {
+        label: "Campus Page Time",
+        value: "3m 48s",
+        sub: "Parents & students exploring facilities",
+      },
+      {
+        label: "Verification Velocity",
+        value: "4x",
+        sub: "Automated applicant CRM pipeline",
+      },
+    ],
+    challenge:
+      "Prior to the digital relaunch, students and parents from across Uttar Pradesh and neighboring states had to visit the campus physically for application forms, syllabus details, and regulatory affiliations. The legacy site lacked modern mobile responsiveness and had no search presence for PCI-approved pharmacy colleges.",
+    solution:
+      "Accelerance engineered a responsive institutional platform with an integrated 'Online Registration' portal, dynamic laboratory and research facility walkthroughs, PCI accreditation document transparency, and a high-converting student counseling WhatsApp chat bridge.",
+    deliverables: [
+      "Higher-Education Institutional Architecture",
+      "Interactive Student Online Registration Funnel",
+      "Virtual Laboratory & Research Facility Showcase",
+      "PCI / AKTU / BTEUP Regulatory Compliance Center",
+      "Educational SEO with Local & Regional Search Optimization",
+    ],
+    testimonial: {
+      quote:
+        "Our admissions cycle reached capacity two months ahead of schedule. Accelerance delivered an educational portal that parents and students trust implicitly.",
+      author: "Prof. Zubair Q.",
+      role: "Principal & Dean of Academics, Jamia College of Pharmacy",
+    },
+    snapshotPreview: {
+      header: "Shaping Future Pharmacists with Excellence and Innovation",
+      searchPlaceholder: "Search D.Pharm, B.Pharm, Admission Dates, Labs...",
+      highlights: [
+        "PCI Approved & AKTU / BTEUP Affiliated",
+        "Advanced Research Laboratories & Library",
+        "Streamlined Online Admission Portal",
+      ],
+      featuredCategories: [
+        "Bachelor of Pharmacy (B.Pharm)",
+        "Diploma in Pharmacy (D.Pharm)",
+        "Pharmaceutical Labs",
+        "Online Registration",
+      ],
+    },
+  },
+  {
+    id: "dilli-haat-uk",
+    slug: "dilli-haat-uk",
+    client: "Dilli Haat UK",
+    url: "https://dillihaat.co.uk",
+    domain: "Dillihaat.co.uk",
+    title:
+      "Crafting the Digital Dining Experience for Britain's Celebrated Indian Food Hub",
+    subtitle:
+      "Direct commission-free online food ordering, instant table reservations, and top local SEO dominance across Dorset & London.",
+    industry: "Hospitality & Food eCommerce",
+    category: "ecommerce",
+    region: "Bournemouth & London, United Kingdom",
+    themeColor: "#78350F",
+    accentColor: "#F59E0B",
+    heroImage:
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
+    screenshotImage: "/images/case-studies/dillihaat-screenshot.jpg",
+    summary:
+      "Located on Seamoor Road in Westbourne, Bournemouth, Dilli Haat celebrates Delhi's legendary street foods, royal tandoori grills, and slow-cooked curries. We built a high-speed digital ordering and reservation platform that slashes third-party aggregator commissions and captures prime Google Local search rankings.",
+    keyMetrics: [
+      {
+        label: "Direct Online Orders",
+        value: "+310%",
+        sub: "Zero commission takeaway & delivery",
+      },
+      {
+        label: "Table Booking Volume",
+        value: "+190%",
+        sub: "Weekend dine-in dining booked online",
+      },
+      {
+        label: "Google Local Pack Rank",
+        value: "Top-3",
+        sub: "Best Indian restaurant in Bournemouth",
+      },
+      {
+        label: "Aggregator Fee Savings",
+        value: "£18,500+",
+        sub: "Annual savings saved from marketplace apps",
+      },
+    ],
+    challenge:
+      "Like many premier UK restaurants, Dilli Haat was losing up to 30% of each food order to marketplace delivery aggregators (Deliveroo, Just Eat, Uber Eats). Their legacy website did not support direct mobile ordering, and diners could not view daily chef specials or book tables in real-time.",
+    solution:
+      "Accelerance designed a mouth-watering, mobile-first food ordering ecosystem featuring an interactive visual menu, custom spice-level selections, instant Apple Pay / Google Pay / card checkouts, and seamless table reservation syncing. We orchestrated hyper-local SEO campaigns and Google Business Profile optimization to capture hungry local diners.",
+    deliverables: [
+      "Commission-Free Direct Online Food Ordering Engine",
+      "Interactive Visual Menu with Allergy & Dietary Filtering",
+      "Real-Time Table Booking & Confirmation System",
+      "Local UK Restaurant SEO & Google Maps Dominance",
+      "Automated SMS Customer Order Status Notifications",
+    ],
+    testimonial: {
+      quote:
+        "Moving our regulars to our own ordering platform saved us thousands in Deliveroo fees every month. Accelerance Tech built a website as rich and satisfying as our butter chicken!",
+      author: "Harpreet S.",
+      role: "Founder & General Manager, Dilli Haat UK",
+    },
+    snapshotPreview: {
+      header: "Authentic Delhi Street Food & Royal Tandoori Feast in Dorset",
+      searchPlaceholder: "Explore Butter Chicken, Tandoori Grills, Biryani, Naan...",
+      highlights: [
+        "100% Fresh Daily Ingredients & Tandoor Roasts",
+        "Direct Online Ordering with Zero Marketplace Fees",
+        "Instant Table Reservations for Private Dining",
+      ],
+      featuredCategories: [
+        "Delhi Street Food Starters",
+        "Chef's Signature Curries",
+        "Clay Oven Tandoori Grills",
+        "Biryani & Handi Specials",
+      ],
+    },
+  },
+  {
+    id: "nn-power",
+    slug: "nn-power",
+    client: "NN Power Tools",
+    url: "https://nnpower.in",
+    domain: "Nnpower.in",
+    title:
+      "Engineering India's Direct B2B Distribution Hub for Heavy-Duty Power Tools",
+    subtitle:
+      "High-volume machinery catalog, tiered wholesale pricing engine, and Pan-India contractor order fulfillment.",
+    industry: "Industrial Machinery & Power Equipment",
+    category: "ecommerce",
+    region: "Delhi NCR & Pan-India",
+    themeColor: "#1E293B",
+    accentColor: "#F59E0B",
+    heroImage:
+      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=1200&q=80",
+    screenshotImage: "/images/case-studies/nnpower-screenshot.jpg",
+    summary:
+      "Headquartered at Ajmeri Gate, New Delhi, NN Power is a high-volume distributor of commercial-grade power tools, rotary hammers, cordless drills, and inverter welding machinery. We designed a robust B2B and retail eCommerce ecosystem capable of processing bulk orders with real-time inventory and GST invoicing.",
+    keyMetrics: [
+      {
+        label: "Wholesale Order Volume",
+        value: "+360%",
+        sub: "Contractors, workshops, and hardware retailers",
+      },
+      {
+        label: "Catalog Search Speed",
+        value: "0.9s",
+        sub: "Instant filtering across 1,500+ industrial SKUs",
+      },
+      {
+        label: "Organic Search Reach",
+        value: "+420%",
+        sub: "Top rankings for heavy-duty tools & machinery",
+      },
+      {
+        label: "Quote-to-Invoice Cycle",
+        value: "-65%",
+        sub: "Automated GST-ready proforma invoicing",
+      },
+    ],
+    challenge:
+      "Distributing heavy machinery involves complex customer requirements: contractors need technical specs (voltage, RPM, chuck size), wholesale buyers need tiered volume pricing, and every sale requires automated B2B tax (GST) compliance and heavy-freight logistics calculation.",
+    solution:
+      "Accelerance engineered a lightning-fast B2B catalog engine. We added technical specification comparative tables, multi-tier bulk purchase discounts, instant WhatsApp commercial quoting, and automated GST billing integrations, driving nationwide brand credibility and wholesale distributor signups.",
+    deliverables: [
+      "High-Capacity B2B & Retail eCommerce Architecture",
+      "Industrial Technical Specifications Comparator",
+      "Tiered Bulk Pricing & Commercial Quotation Engine",
+      "Automated GST Invoicing & Logistics Dispatch",
+      "Heavy Machinery Technical B2B SEO Strategy",
+    ],
+    testimonial: {
+      quote:
+        "Our wholesale business expanded far beyond Delhi into Gujarat, Maharashtra, and Bengal thanks to Accelerance. Industrial buyers love the technical clarity and quick bulk ordering.",
+      author: "Naveen G.",
+      role: "Managing Partner, NN Power",
+    },
+    snapshotPreview: {
+      header: "Industrial Grade Power Tools & Heavy Machinery Distribution",
+      searchPlaceholder: "Search Rotary Hammers, Impact Drills, Inverter Welders...",
+      highlights: [
+        "100% Genuine Commercial-Grade Warranties",
+        "Wholesale Tiered Pricing for Industrial Contractors",
+        "Pan-India Express Heavy Freight Logistics",
+      ],
+      featuredCategories: [
+        "Rotary Hammers & Demolition",
+        "Cordless Impact Wrenches",
+        "Inverter ARC & MIG Welders",
+        "Industrial Cutting Machines",
+      ],
+    },
+  },
 ];
 
 // ============================================================================
@@ -932,7 +1466,7 @@ export const servicesList = [
       {
         name: "Local & Multi-Region SEO",
         desc:
-          "Dominating local map packs and regional Google searches across Delhi NCR, Dubai, Riyadh, Sydney, London, and Manama.",
+          "Dominating local map packs and regional Google searches across Delhi NCR, London, Dubai, Sydney, and Manama.",
       },
       {
         name: "High-Authority Link Acquisition",

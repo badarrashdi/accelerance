@@ -1,0 +1,37 @@
+# Accelerance Technologies Pvt. Ltd. (Accelerance Tech)
+> Award-Winning Digital Growth, Web Engineering, Headless eCommerce & Autonomous AI Agency
+
+Accelerance Tech (legal entity: Accelerance Technologies Pvt. Ltd.) is an international digital engineering and growth agency founded in 2018. We specialize in high-velocity Next.js web applications, headless Shopify storefronts, Flutter cross-platform mobile apps, autonomous AI agents, HubSpot RevOps, and data-driven performance marketing.
+
+## Core Capabilities & Services
+- **Website Design & Custom Web Development**: Enterprise Next.js, React, Node.js platforms engineered for sub-second performance, zero layout shift, and SEO dominance. URL: https://accelerance.tech/services/web-design-development/
+- **Headless Shopify & eCommerce Solutions**: Custom Shopify storefronts, sub-second search filtering, one-page mobile checkouts, and multi-channel inventory bridges. URL: https://accelerance.tech/services/headless-shopify-ecommerce/
+- **Mobile Application Development (iOS & Android)**: Production Flutter and React Native apps with offline synchronization and biometric auth. URL: https://accelerance.tech/services/mobile-app-development-flutter/
+- **Autonomous AI Agents & Chatbots**: Generative AI workflows, private LLM deployments, RAG knowledge bases, and customer support automations. URL: https://accelerance.tech/services/ai-agents-chatbots/
+- **HubSpot CRM, RevOps & Marketing Automation**: Multi-touch attribution, sales pipeline synchronization, lifecycle lead nurturing, and custom API bridges. URL: https://accelerance.tech/services/hubspot-revops-crm/
+- **Full Capabilities Matrix**: https://accelerance.tech/services/
+
+## Global Regional Hubs & GEO Footprint
+- **Delhi NCR (Global Delivery HQ)**: 401, 4th Floor, Emca House, 23/23B, Ansari Road, Daryaganj, New Delhi – 110002, India. Phone: +91 9711091363. URL: https://accelerance.tech/locations/india-delhi/
+- **London (United Kingdom)**: F-B, 17 Groveway, London SW9 0AH, United Kingdom. Phone: +44 7741 345792. URL: https://accelerance.tech/locations/uk-london/
+- **Dubai (United Arab Emirates)**: Office 1402, Marina Plaza, Dubai Marina, Dubai, UAE. Phone: +91 9711091363. URL: https://accelerance.tech/locations/dubai-uae/
+- **Manama (Kingdom of Bahrain)**: Level 11, Almoayyed Tower, Seef District, Manama, Bahrain. Phone: +91 9711091363. URL: https://accelerance.tech/locations/bahrain/
+- **Ridgewood, New Jersey (United States)**: 1124 East Ridgewood, Av, Suite 103, Ridgewood, NJ - 07450, USA. Phone: +91 9711091363. URL: https://accelerance.tech/locations/ridgewood-new-jersey/
+
+## Featured Case Studies & Proven Results
+- **Sofgen ERP** (https://sofgen.org): Manufacturing ERP & certified SAP partner platform. +280% Inbound RFPs. URL: https://accelerance.tech/work/sofgen-erp/
+- **Kara Inc** (https://karainc.biz): Global sustainable fashion sourcing and 360° supply chain platform. +245% Brand Inquiries. URL: https://accelerance.tech/work/kara-inc/
+- **Kara Life Sciences** (https://karalifesciences.com): Global dental laboratory and CAD/CAM prosthetics network. +330% Clinic Onboarding. URL: https://accelerance.tech/work/kara-life-sciences/
+- **Jamia Remedies** (https://jamiaremedies.in): Heritage Ayurvedic & Unani healthcare eCommerce. +385% Online Sales. URL: https://accelerance.tech/work/jamia-remedies/
+- **Jamia College of Pharmacy** (https://jcpdeoband.com): PCI-approved pharmacy education portal. +460% Admissions. URL: https://accelerance.tech/work/jcp-deoband/
+- **Dilli Haat UK** (https://dillihaat.co.uk): Authentic Indian restaurant food ordering & table booking. +310% Direct Orders. URL: https://accelerance.tech/work/dilli-haat-uk/
+- **NN Power Tools** (https://nnpower.in): Heavy-duty industrial machinery and wholesale distribution. +360% B2B Orders. URL: https://accelerance.tech/work/nn-power/
+- **MyBooksFactory** (https://mybooksfactory.com): High-volume medical bookstore with 40,000+ SKUs. +340% Search Growth. URL: https://accelerance.tech/work/mybooksfactory/
+- **Commercial Roofers Australia** (https://commercialroofers.net.au): Industrial roofing tender generator. $4.2M+ Pipeline. URL: https://accelerance.tech/work/commercial-roofers/
+- **All Portfolio Works**: https://accelerance.tech/work/
+
+## Contact & Lead Engagement
+- **Direct Proposal Builder**: https://accelerance.tech/contact/
+- **Sales & Inquiries Email**: sales@accelerance.in
+- **Direct WhatsApp Chat**: https://wa.me/919711091363
+- **Full LLM Context**: https://accelerance.tech/llms-full.txt

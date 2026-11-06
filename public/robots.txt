@@ -1,0 +1,38 @@
+# Robots.txt for Accelerance Technologies Pvt. Ltd.
+# Website: https://accelerance.tech
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
+
+# AI Crawlers & LLM Engines
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: PerplexityBot
+User-agent: Google-Extended
+User-agent: CCBot
+User-agent: Bytespider
+User-agent: Diffbot
+User-agent: cohere-ai
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /api/
+
+# Search Engine Crawlers
+User-agent: Googlebot
+User-agent: Googlebot-Image
+User-agent: Bingbot
+User-agent: Applebot
+User-agent: DuckDuckBot
+User-agent: Slurp
+User-agent: Yandex
+Allow: /
+Disallow: /api/
+
+Sitemap: https://accelerance.tech/sitemap.xml
+Host: https://accelerance.tech

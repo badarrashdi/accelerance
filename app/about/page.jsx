@@ -4,8 +4,16 @@ import Link from 'next/link';
 import { agencyInfo } from '../data';
 
 export const metadata = {
-  title: 'About Us | Digital Growth Agency | Accelerance Tech',
-  description: 'Learn about Accelerance Tech — an award-winning digital agency uniting senior UI/UX design, full-stack engineering, and performance marketing to deliver commercial growth.',
+  title: 'Get to Know Us | Digital Growth Agency | Accelerance Tech Pvt. Ltd.',
+  description: 'Get to know Accelerance Tech Pvt. Ltd. — an award-winning digital agency uniting senior UI/UX design, full-stack engineering, and performance marketing to deliver commercial growth.',
+  alternates: {
+    canonical: 'https://accelerance.tech/about/',
+  },
+  openGraph: {
+    title: 'Get to Know Us | Accelerance Tech Pvt. Ltd.',
+    description: 'Learn about Accelerance Tech — an award-winning digital agency uniting senior UI/UX design, full-stack engineering, and performance marketing.',
+    url: 'https://accelerance.tech/about/',
+  },
 };
 
 export default function AboutPage() {
@@ -37,7 +45,7 @@ export default function AboutPage() {
         <div className="container">
           <div className="page-hero-eyebrow">
             <span className="dot-pulse"></span>
-            ABOUT ACCELERANCE TECH
+            GET TO KNOW US &bull; ACCELERANCE TECH
           </div>
           <h1 className="page-hero-title">
             Engineering Digital Advantage for Ambitious Brands.
@@ -45,7 +53,7 @@ export default function AboutPage() {
           <p className="page-hero-subtext">
             We are a digital growth agency uniting world-class design, modern engineering, 
             and data-driven performance marketing. Headquartered in Delhi NCR with active delivery 
-            across Dubai, Bahrain, the UK, Australia, and Saudi Arabia.
+            across London &amp; the UK, Dubai, Bahrain, the United States (New Jersey), and global markets.
           </p>
 
           <div style={{ display: 'flex', gap: '1.25rem', alignItems: 'center', flexWrap: 'wrap' }}>

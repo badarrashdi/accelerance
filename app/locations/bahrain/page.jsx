@@ -3,7 +3,7 @@ import Footer from '../../components/Footer';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Web Design, Mobile App & AI Software Company in Bahrain | Accelerance Tech',
+  title: 'Web Design, Mobile App & AI Software Company in Bahrain | Accelerance Tech Pvt. Ltd.',
   description: 'Accelerance Tech delivers premier website design, Next.js development, Flutter mobile apps, and autonomous AI agents for businesses in Manama, Seef, and across the Kingdom of Bahrain. Compliant with Bahrain PDPL.',
   keywords: [
     'website design company Bahrain',
@@ -14,6 +14,9 @@ export const metadata = {
     'software development company Bahrain',
     'web design agency Manama'
   ],
+  alternates: {
+    canonical: 'https://accelerance.tech/locations/bahrain/',
+  },
   openGraph: {
     title: 'Web Design & AI Software Development in Bahrain | Accelerance Tech',
     description: 'Bespoke web design, Flutter mobile apps, and autonomous AI agents for businesses in Bahrain.',
@@ -22,8 +25,41 @@ export const metadata = {
 };
 
 export default function BahrainLocationPage() {
+  const localBusinessJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Accelerance Tech — Kingdom of Bahrain Regional Hub (Manama)",
+    "image": "https://accelerance.tech/brand/og-image.png",
+    "@id": "https://accelerance.tech/locations/bahrain/",
+    "url": "https://accelerance.tech/locations/bahrain/",
+    "telephone": "+91-9711091363",
+    "email": "bahrain@accelerance.tech",
+    "priceRange": "$$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Level 11, Almoayyed Tower, Seef District",
+      "addressLocality": "Manama",
+      "addressCountry": "BH"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.2411,
+      "longitude": 50.5367
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+      "opens": "08:30",
+      "closes": "17:30"
+    }
+  };
+
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
+      />
       <Header />
 
       <section className="abox-hero" style={{ paddingBottom: '3.5rem' }}>

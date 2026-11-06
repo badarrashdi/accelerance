@@ -2,8 +2,16 @@ import { servicesList } from '../../data';
 import ServiceDetailTemplate from '../../components/ServiceDetailTemplate';
 
 export const metadata = {
-  title: 'Autonomous AI Agents, Chatbots & Automation | Accelerance Tech',
-  description: 'Enterprise conversational AI, customer deflection bots, and automated business workflows.',
+  title: 'Autonomous AI Agents, Chatbots & Automation | Accelerance Tech Pvt. Ltd.',
+  description: 'Enterprise conversational AI, customer deflection bots, RAG knowledge bases, and automated business workflows for high-growth enterprises.',
+  alternates: {
+    canonical: 'https://accelerance.tech/services/ai-agents-chatbots/',
+  },
+  openGraph: {
+    title: 'Autonomous AI Agents & Chatbots | Accelerance Tech',
+    description: 'Deploy zero-hallucination conversational AI agents that resolve customer inquiries and qualify leads 24/7.',
+    url: 'https://accelerance.tech/services/ai-agents-chatbots/',
+  },
 };
 
 export default function Page() {

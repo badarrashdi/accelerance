@@ -45,7 +45,7 @@ export default function HeroAnimatedHeading() {
         {/* Animated Location Tag */}
         <div className="hero-tag-animated reveal-fade-up">
           <span className="live-status-dot" />
-          <span>Digital Agency &bull; Delhi NCR (HQ) &bull; Dubai &bull; Bahrain &bull; Riyadh &bull; London &bull; Sydney</span>
+          <span>Digital Agency &bull; Delhi NCR (HQ) &bull; London &bull; Dubai &bull; Bahrain &bull; Sydney</span>
         </div>
 
         {/* Current Hero Headline with Kinetic Staggered Reveal */}
