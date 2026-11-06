@@ -1,0 +1,34 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
+
+User-Agent: Googlebot
+User-Agent: Bingbot
+User-Agent: Applebot
+User-Agent: DuckDuckBot
+User-Agent: Slurp
+User-Agent: Yandex
+User-Agent: Baiduspider
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+
+User-Agent: GPTBot
+User-Agent: ChatGPT-User
+User-Agent: ClaudeBot
+User-Agent: Claude-Web
+User-Agent: PerplexityBot
+User-Agent: Google-Extended
+User-Agent: CCBot
+User-Agent: Bytespider
+User-Agent: Diffbot
+User-Agent: cohere-ai
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /api/
+
+Host: https://accelerance.tech
+Sitemap: https://accelerance.tech/sitemap.xml

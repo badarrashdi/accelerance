@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 625" width="1000" height="625" fill="none">
+  <defs>
+    <linearGradient id="dhGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#27272A" />
+      <stop offset="100%" stop-color="#18181B" />
+    </linearGradient>
+    <filter id="dhShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.1" />
+    </filter>
+  </defs>
+
+  <!-- Browser Frame -->
+  <rect width="1000" height="625" rx="16" fill="#F4F4F5" />
+  <rect width="1000" height="625" rx="16" stroke="#E4E4E7" stroke-width="2" />
+
+  <!-- Top Bar -->
+  <rect width="1000" height="52" rx="16" fill="#FFFFFF" />
+  <line x1="0" y1="52" x2="1000" y2="52" stroke="#E4E4E7" stroke-width="1.5" />
+  <circle cx="32" cy="26" r="6" fill="#EF4444" />
+  <circle cx="52" cy="26" r="6" fill="#F59E0B" />
+  <circle cx="72" cy="26" r="6" fill="#10B981" />
+
+  <!-- Address Bar -->
+  <rect x="240" y="10" width="520" height="32" rx="16" fill="#F4F4F5" stroke="#E4E4E7" stroke-width="1" />
+  <path d="M260 21H268V26H260V21ZM262 21V19C262 17.9 262.9 17 264 17C265.1 17 266 17.9 266 19V21" stroke="#10B981" stroke-width="1.5" />
+  <text x="278" y="31" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#18181B">
+    https://designerhandle.co.uk
+  </text>
+  <rect x="696" y="16" width="52" height="20" rx="4" fill="#FEF08A" />
+  <text x="722" y="30" font-family="sans-serif" font-size="10" font-weight="700" fill="#854D0E" text-anchor="middle">UK SHOP</text>
+
+  <!-- Announcement Bar -->
+  <rect y="52" width="1000" height="30" fill="#18181B" />
+  <text x="500" y="71" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#FEF08A" text-anchor="middle">
+    TRADE ACCOUNTS FOR ARCHITECTS &amp; CONTRACTORS • NEXT-DAY UK COURIER DELIVERY ON ORDERS OVER £75
+  </text>
+
+  <!-- Main Navigation -->
+  <rect y="82" width="1000" height="70" fill="#FFFFFF" />
+  <line x1="0" y1="152" x2="1000" y2="152" stroke="#E4E4E7" stroke-width="1" />
+  
+  <!-- Logo -->
+  <g transform="translate(48, 98)">
+    <circle cx="18" cy="18" r="16" fill="#27272A" />
+    <circle cx="18" cy="18" r="6" fill="#EAB308" />
+    <path d="M18 18H32" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" />
+    <text x="44" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" fill="#18181B">DESIGNER<tspan fill="#CA8A04">HANDLE</tspan></text>
+  </g>
+
+  <!-- Nav links -->
+  <text x="390" y="122" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#18181B">Door Handles</text>
+  <text x="510" y="122" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#18181B">Cabinet Hardware</text>
+  <text x="660" y="122" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#18181B">Locks &amp; Hinges</text>
+  <text x="790" y="122" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#CA8A04">Trade Portal</text>
+  <text x="900" y="122" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#18181B">Basket (£0)</text>
+
+  <!-- Hero Banner with Finish Selector Preview -->
+  <rect x="48" y="168" width="904" height="260" rx="16" fill="url(#dhGrad)" />
+  <g transform="translate(85, 205)">
+    <text x="0" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="800" letter-spacing="0.1em" fill="#EAB308">ARCHITECTURAL IRONMONGERY</text>
+    <text x="0" y="62" font-family="'Plus Jakarta Sans', sans-serif" font-size="32" font-weight="800" fill="#FFFFFF">Solid Brass &amp; Satin Bronze Hardware</text>
+    <text x="0" y="92" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#A1A1AA">
+      Engineered for luxury residential and commercial developments. Complete matching suites for doors, windows &amp; cabinets.
+    </text>
+
+    <!-- Real-time Finish Selector Chips -->
+    <g transform="translate(0, 115)">
+      <text x="0" y="16" font-family="sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">SELECT FINISH:</text>
+      
+      <!-- Finish 1: Satin Brass -->
+      <rect x="110" y="0" width="115" height="30" rx="6" fill="#18181B" stroke="#EAB308" stroke-width="1.5" />
+      <circle cx="125" cy="15" r="7" fill="#EAB308" />
+      <text x="140" y="20" font-family="sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">Satin Brass</text>
+
+      <!-- Finish 2: Matte Black -->
+      <rect x="235" y="0" width="115" height="30" rx="6" fill="#18181B" stroke="#3F3F46" />
+      <circle cx="250" cy="15" r="7" fill="#09090B" stroke="#71717A" />
+      <text x="265" y="20" font-family="sans-serif" font-size="11" font-weight="600" fill="#D4D4D8">Matte Black</text>
+
+      <!-- Finish 3: Antique Bronze -->
+      <rect x="360" y="0" width="125" height="30" rx="6" fill="#18181B" stroke="#3F3F46" />
+      <circle cx="375" cy="15" r="7" fill="#78350F" />
+      <text x="390" y="20" font-family="sans-serif" font-size="11" font-weight="600" fill="#D4D4D8">Antique Bronze</text>
+    </g>
+
+    <g transform="translate(0, 165)">
+      <rect width="180" height="42" rx="8" fill="#EAB308" />
+      <text x="90" y="26" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" fill="#18181B" text-anchor="middle">Shop Hardware Suites →</text>
+      <text x="200" y="26" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#D4D4D8">Download Architect BIM/CAD Specs</text>
+    </g>
+  </g>
+
+  <!-- Product Suite Preview Grid -->
+  <g transform="translate(48, 444)">
+    <rect width="904" height="150" rx="14" fill="#FFFFFF" stroke="#E4E4E7" />
+    <text x="32" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="800" fill="#18181B">POPULAR ARCHITECTURAL COLLECTIONS</text>
+
+    <g transform="translate(32, 50)">
+      <!-- Item 1 -->
+      <rect x="0" y="0" width="200" height="80" rx="8" fill="#F4F4F5" />
+      <rect x="12" y="14" width="45" height="52" rx="6" fill="#E4E4E7" />
+      <circle cx="28" cy="30" r="8" fill="#EAB308" />
+      <path d="M28 30H48" stroke="#18181B" stroke-width="2.5" />
+      <text x="68" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#18181B">Knurled T-Bar</text>
+      <text x="68" y="48" font-family="sans-serif" font-size="11" fill="#71717A">From £34.50</text>
+      <text x="68" y="64" font-family="sans-serif" font-size="9" font-weight="700" fill="#15803D">Next-Day UK</text>
+
+      <!-- Item 2 -->
+      <rect x="220" y="0" width="200" height="80" rx="8" fill="#F4F4F5" />
+      <rect x="232" y="14" width="45" height="52" rx="6" fill="#E4E4E7" />
+      <circle cx="248" cy="30" r="8" fill="#09090B" />
+      <path d="M248 30H268" stroke="#09090B" stroke-width="2.5" />
+      <text x="288" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#18181B">Mitred Lever Set</text>
+      <text x="288" y="48" font-family="sans-serif" font-size="11" fill="#71717A">From £42.00</text>
+      <text x="288" y="64" font-family="sans-serif" font-size="9" font-weight="700" fill="#15803D">In Stock (120+)</text>
+
+      <!-- Item 3 -->
+      <rect x="440" y="0" width="200" height="80" rx="8" fill="#F4F4F5" />
+      <rect x="452" y="14" width="45" height="52" rx="6" fill="#E4E4E7" />
+      <circle cx="474" cy="40" r="12" fill="#EAB308" />
+      <text x="508" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#18181B">Mushroom Knobs</text>
+      <text x="508" y="48" font-family="sans-serif" font-size="11" fill="#71717A">Solid Brass • £14.80</text>
+      <text x="508" y="64" font-family="sans-serif" font-size="9" font-weight="700" fill="#15803D">Pack of 10 Available</text>
+
+      <!-- Item 4: Schedule Tool -->
+      <rect x="660" y="0" width="210" height="80" rx="8" fill="#18181B" />
+      <text x="678" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" fill="#EAB308">Project Scheduler Tool</text>
+      <text x="678" y="50" font-family="sans-serif" font-size="10" fill="#D4D4D8">Build room-by-room hardware</text>
+      <text x="678" y="66" font-family="sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">Launch Configurator →</text>
+    </g>
+  </g>
+</svg>

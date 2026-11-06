@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 625" width="1000" height="625" fill="none">
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.08" />
+    </filter>
+    <linearGradient id="mbfGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+  </defs>
+
+  <!-- Browser Window Frame -->
+  <rect width="1000" height="625" rx="16" fill="#F8FAFC" />
+  <rect width="1000" height="625" rx="16" stroke="#E2E8F0" stroke-width="2" />
+
+  <!-- Browser Top Bar -->
+  <rect width="1000" height="52" rx="16" fill="#FFFFFF" />
+  <path d="M0 52H1000" stroke="#E2E8F0" stroke-width="1.5" />
+  <circle cx="32" cy="26" r="6" fill="#EF4444" />
+  <circle cx="52" cy="26" r="6" fill="#F59E0B" />
+  <circle cx="72" cy="26" r="6" fill="#10B981" />
+
+  <!-- URL Address Bar -->
+  <rect x="240" y="10" width="520" height="32" rx="16" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1" />
+  <path d="M260 21H268V26H260V21ZM262 21V19C262 17.9 262.9 17 264 17C265.1 17 266 17.9 266 19V21" stroke="#10B981" stroke-width="1.5" />
+  <text x="278" y="31" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#0F172A">
+    https://mybooksfactory.com
+  </text>
+  <rect x="696" y="16" width="52" height="20" rx="4" fill="#DCFCE7" />
+  <text x="722" y="30" font-family="sans-serif" font-size="10" font-weight="700" fill="#15803D" text-anchor="middle">LIVE</text>
+
+  <!-- Website Top Announcement Banner -->
+  <rect y="52" width="1000" height="32" fill="#1E3A8A" />
+  <text x="500" y="73" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+    Free Pan-India Delivery on Academic &amp; Medical Orders Above ₹399 • 100% Genuine Publisher Direct
+  </text>
+
+  <!-- Website Navigation Bar -->
+  <rect y="84" width="1000" height="74" fill="#FFFFFF" />
+  <line x1="0" y1="158" x2="1000" y2="158" stroke="#E2E8F0" stroke-width="1" />
+  
+  <!-- Logo -->
+  <g transform="translate(48, 102)">
+    <rect width="38" height="38" rx="8" fill="#1E3A8A" />
+    <path d="M10 13C13 11.5 17 11.5 19 14C21 11.5 25 11.5 28 13V27C25 25.5 21 25.5 19 28C17 25.5 13 25.5 10 27V13Z" stroke="#FFFFFF" stroke-width="2" />
+    <text x="48" y="27" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" fill="#0F172A">MyBooks<tspan fill="#2563EB">Factory</tspan></text>
+  </g>
+
+  <!-- Live Search Bar -->
+  <rect x="360" y="99" width="420" height="44" rx="22" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5" />
+  <circle cx="384" cy="121" r="7" stroke="#64748B" stroke-width="1.8" />
+  <line x1="389" y1="126" x2="397" y2="134" stroke="#64748B" stroke-width="1.8" stroke-linecap="round" />
+  <text x="406" y="126" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#64748B">Search 40,000+ MBBS, BDS, Engineering, NEET PG, ISBN...</text>
+
+  <!-- Cart & Profile -->
+  <g transform="translate(820, 107)">
+    <rect width="132" height="38" rx="19" fill="#1E3A8A" />
+    <text x="886" y="131" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Cart (0) • Login</text>
+  </g>
+
+  <!-- Category Nav Strip -->
+  <rect y="158" width="1000" height="42" fill="#F8FAFC" />
+  <text x="50" y="184" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#1E3A8A">Medical (MBBS/BDS)</text>
+  <text x="210" y="184" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#475569">Engineering Tech</text>
+  <text x="350" y="184" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#475569">NEET PG Preparation</text>
+  <text x="510" y="184" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#475569">Nursing &amp; Pharmacy</text>
+  <text x="680" y="184" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#475569">Competitive Exams</text>
+  <text x="840" y="184" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#EF4444">Offers • Up to 45% Off</text>
+
+  <!-- Hero Promotional Banner -->
+  <rect x="48" y="218" width="904" height="210" rx="16" fill="url(#mbfGrad)" />
+  <g transform="translate(90, 260)">
+    <rect width="130" height="26" rx="13" fill="rgba(255,255,255,0.2)" />
+    <text x="65" y="277" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="800" fill="#FFFFFF" text-anchor="middle">ACADEMIC 2026/27</text>
+    <text x="0" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="30" font-weight="800" fill="#FFFFFF">Medical &amp; Competitive Exam Textbooks</text>
+    <text x="0" y="86" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" fill="#BFDBFE">Guaranteed original editions from Jaypee, Elsevier, Wolters Kluwer &amp; CBS.</text>
+    
+    <rect x="0" y="106" width="180" height="42" rx="21" fill="#FFFFFF" />
+    <text x="90" y="132" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="800" fill="#1E3A8A" text-anchor="middle">Shop Medical Books →</text>
+  </g>
+
+  <!-- 3 Book Cards Sample -->
+  <g transform="translate(680, 240)">
+    <!-- Book 1 -->
+    <rect x="0" y="0" width="110" height="155" rx="6" fill="#FFFFFF" filter="url(#cardShadow)" />
+    <rect x="6" y="6" width="98" height="95" rx="4" fill="#DBEAFE" />
+    <text x="55" y="58" font-family="sans-serif" font-size="11" font-weight="800" fill="#1E3A8A" text-anchor="middle">ROBBINS</text>
+    <text x="55" y="72" font-family="sans-serif" font-size="9" fill="#2563EB" text-anchor="middle">Pathology 10th</text>
+    <text x="12" y="122" font-family="sans-serif" font-size="10" font-weight="700" fill="#0F172A">₹1,850</text>
+    <text x="12" y="138" font-family="sans-serif" font-size="8" fill="#15803D">In Stock • 0.8s dispatch</text>
+
+    <!-- Book 2 -->
+    <rect x="130" y="0" width="110" height="155" rx="6" fill="#FFFFFF" filter="url(#cardShadow)" />
+    <rect x="136" y="6" width="98" height="95" rx="4" fill="#FEF3C7" />
+    <text x="185" y="58" font-family="sans-serif" font-size="11" font-weight="800" fill="#B45309" text-anchor="middle">GUYTON</text>
+    <text x="185" y="72" font-family="sans-serif" font-size="9" fill="#92400E" text-anchor="middle">Physiology 14th</text>
+    <text x="142" y="122" font-family="sans-serif" font-size="10" font-weight="700" fill="#0F172A">₹2,100</text>
+    <text x="142" y="138" font-family="sans-serif" font-size="8" fill="#15803D">Free Delivery</text>
+  </g>
+
+  <!-- Bottom Featured Strip -->
+  <rect x="48" y="450" width="904" height="145" rx="14" fill="#FFFFFF" stroke="#E2E8F0" />
+  <text x="80" y="485" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="800" fill="#0F172A">Trending Exam Categories &amp; Direct Syllabi</text>
+  
+  <g transform="translate(80, 505)">
+    <rect x="0" y="0" width="190" height="60" rx="10" fill="#F8FAFC" stroke="#E2E8F0" />
+    <text x="20" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#0F172A">1st Year MBBS</text>
+    <text x="20" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#64748B">Anatomy, Biochem, Physio</text>
+
+    <rect x="215" y="0" width="190" height="60" rx="10" fill="#F8FAFC" stroke="#E2E8F0" />
+    <text x="235" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#0F172A">2nd &amp; 3rd Year MBBS</text>
+    <text x="235" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#64748B">Pharm, Micro, Pathology</text>
+
+    <rect x="430" y="0" width="190" height="60" rx="10" fill="#F8FAFC" stroke="#E2E8F0" />
+    <text x="450" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#0F172A">NEET PG Subjectwise</text>
+    <text x="450" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#64748B">Review series &amp; Q-Banks</text>
+
+    <rect x="645" y="0" width="190" height="60" rx="10" fill="#F8FAFC" stroke="#E2E8F0" />
+    <text x="665" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#0F172A">Dental &amp; BDS</text>
+    <text x="665" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#64748B">Prostho, Ortho, Surgery</text>
+  </g>
+</svg>

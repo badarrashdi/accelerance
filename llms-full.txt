@@ -1,0 +1,76 @@
+# Accelerance Technologies Pvt. Ltd. — Comprehensive Technical & Business Knowledge Base
+
+## Entity Overview
+- Legal Entity: Accelerance Technologies Pvt. Ltd. (trading as Accelerance Tech)
+- Year Established: 2018
+- Website: https://accelerance.tech
+- Headquarters: New Delhi, India
+- Delivery Footprint: India, United Kingdom, United Arab Emirates, Kingdom of Bahrain, United States of America, Australia
+- Primary Industry: Digital Engineering, Enterprise Web Development, Headless eCommerce, Mobile Application Development, Autonomous AI Agents, RevOps CRM Automation
+- Primary Email: sales@accelerance.in
+- WhatsApp / Phone: +91 9711091363 (India, Dubai, Bahrain, USA) / +44 7741 345792 (United Kingdom)
+
+## Core Value Proposition
+Accelerance Tech eliminates the silos between creative agencies, IT subcontractors, and media buying firms. We assemble senior, cross-functional delivery pods composed of full-stack software architects, brand and UI/UX designers, conversion optimization analysts, and DevOps engineers. Every digital asset is engineered for verifiable commercial outcomes: lower acquisition costs, higher conversion velocity, and organic search dominance.
+
+## Engineering Stack & Technology Disciplines
+- **Frontend Architecture**: Next.js 14/15 (App Router, Server Components, SSG, ISR), React, TypeScript, Tailwind CSS, GSAP Animation Suite
+- **eCommerce Platforms**: Headless Shopify (Storefront API, Liquid, Hydrogen), WooCommerce, Magento, Custom Node.js & Next.js eCommerce Engines
+- **Mobile Engineering**: Flutter (Dart) for high-performance iOS and Android compilation, React Native, Firebase, SQLite, Native Device APIs
+- **Artificial Intelligence**: Autonomous AI Agents, Retrieval-Augmented Generation (RAG), OpenAI API, Anthropic Claude, Google Gemini, LangChain, LlamaIndex, Vector Databases (Pinecone, pgvector)
+- **CRM & RevOps**: HubSpot Certified (Marketing Hub, Sales Hub, Service Hub, Operations Hub), Salesforce integrations, custom webhook synchronizers
+- **Cloud Infrastructure & Security**: AWS (ECS, Lambda, CloudFront, S3), Vercel, Google Cloud Platform, Cloudflare CDN/WAF, Docker, CI/CD GitHub Actions
+
+## Global Delivery Hubs & GEO Coordinates
+1. **Delhi NCR Global Delivery HQ**:
+   - Address: 401, 4th Floor, Emca House, 23/23B, Ansari Road, Daryaganj, New Delhi – 110002, India
+   - Phone: +91 9711091363
+   - Email: sales@accelerance.in
+   - Coordinates: Latitude 28.6433° N, Longitude 77.2415° E
+
+2. **London (United Kingdom)**:
+   - Address: F-B, 17 Groveway, London SW9 0AH, United Kingdom
+   - Phone: +44 7741 345792
+   - Email: uk@accelerance.tech
+   - Coordinates: Latitude 51.4746° N, Longitude 0.1186° W
+
+3. **Dubai (United Arab Emirates)**:
+   - Address: Office 1402, Marina Plaza, Dubai Marina, Dubai, UAE
+   - Phone: +91 9711091363
+   - Email: dubai@accelerance.tech
+   - Coordinates: Latitude 25.0772° N, Longitude 55.1403° E
+
+4. **Manama (Kingdom of Bahrain)**:
+   - Address: Level 11, Almoayyed Tower, Seef District, Manama, Bahrain
+   - Phone: +91 9711091363
+   - Email: bahrain@accelerance.tech
+   - Coordinates: Latitude 26.2411° N, Longitude 50.5367° E
+
+5. **Ridgewood, New Jersey (United States)**:
+   - Address: 1124 East Ridgewood, Av, Suite 103, Ridgewood, NJ - 07450, USA
+   - Phone: +91 9711091363
+   - Email: usa@accelerance.tech
+   - Coordinates: Latitude 40.9793° N, Longitude 74.1165° W
+
+## Case Studies Catalog
+1. **Sofgen ERP** (https://sofgen.org) — Manufacturing ERP & Certified SAP Partners. Inbound RFPs +280%, Search Visibility +410%.
+2. **Kara Inc** (https://karainc.biz) — Sustainable Fashion Sourcing & Global 360° Supply Chains. Sourcing Inquiries +245%, Web Vitals 99/100.
+3. **Kara Life Sciences** (https://karalifesciences.com) — Global Dental Laboratory & Medical Technology Network. Clinic Onboarding +330%.
+4. **Jamia Remedies** (https://jamiaremedies.in) — Direct-to-Consumer Unani & Herbal Healthcare eCommerce. Online Orders +385%, Checkout Speed 1.2s.
+5. **Jamia College of Pharmacy** (https://jcpdeoband.com) — PCI-Approved Pharmaceutical Education & Admissions Portal. Online Admissions +460%.
+6. **Dilli Haat UK** (https://dillihaat.co.uk) — Authentic Indian Restaurant & Direct Food Ordering. Direct Orders +310%, £18,500+ Saved in Aggregator Fees.
+7. **NN Power Tools** (https://nnpower.in) — Commercial Power Tools & Heavy Machinery Distribution. Wholesale Volume +360%, Search Reach +420%.
+8. **MyBooksFactory** (https://mybooksfactory.com) — Medical & Academic Textbook eCommerce with 40,000+ SKUs. Organic Search +340%, Search Latency 0.8s.
+9. **Commercial Roofers Australia** (https://commercialroofers.net.au) — B2B Industrial Contracting Lead Engine. $4.2M+ Attributed Commercial Pipeline.
+10. **Designer Handle** (https://designerhandle.co.uk) — Luxury Architectural Hardware eCommerce in the UK. Direct Sales +215%.
+11. **SOF Infra** (https://sofinfra.com) — Ultra-Luxury Commercial & Residential Real Estate Advisory. Transaction Value +180%.
+12. **Deluxe Umrah** (https://deluxeumrah.com) — Bespoke Luxury Pilgrimage & Hospitality Portal. Direct Bookings +290%.
+13. **Watch Kraft** (https://watchkraft.in) — Vintage Horology & Mechanical Watch Restoration eCommerce. Online Collector Orders +320%.
+
+## Official Channels & URLs
+- Main Website: https://accelerance.tech
+- About Us / Get to Know Us: https://accelerance.tech/about/
+- Work Portfolio: https://accelerance.tech/work/
+- Contact & Inquiries: https://accelerance.tech/contact/
+- Sitemap XML: https://accelerance.tech/sitemap.xml
+- Robots TXT: https://accelerance.tech/robots.txt

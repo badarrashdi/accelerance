@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <rect width="48" height="48" rx="12" fill="#27272A" />
+  <!-- Round Brass Rose / Escutcheon -->
+  <circle cx="18" cy="24" r="8" stroke="#EAB308" stroke-width="2.5" fill="#18181B" />
+  <circle cx="18" cy="24" r="3.5" fill="#EAB308" />
+  <!-- Architectural Lever Handle -->
+  <path d="M18 24H35C37.5 24 39 22.5 39 20C39 17.5 37.5 16 35 16H22" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
